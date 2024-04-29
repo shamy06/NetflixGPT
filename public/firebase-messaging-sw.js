@@ -8,7 +8,7 @@ importScripts('https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js')
 // your app's Firebase config object.
 // https://firebase.google.com/docs/web/setup#config-object
 firebase.initializeApp({
-    apiKey: "AIzaSyBw7cDEoHsfVEB5HXr11ZVybnFpJo6xjNI",
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
     authDomain: "netflixgpt-81d76.firebaseapp.com",
     projectId: "netflixgpt-81d76",
     storageBucket: "netflixgpt-81d76.appspot.com",

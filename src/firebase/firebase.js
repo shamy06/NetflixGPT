@@ -8,7 +8,7 @@ import { getMessaging, getToken } from "firebase/messaging";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBw7cDEoHsfVEB5HXr11ZVybnFpJo6xjNI",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "netflixgpt-81d76.firebaseapp.com",
   projectId: "netflixgpt-81d76",
   storageBucket: "netflixgpt-81d76.appspot.com",
@@ -32,7 +32,7 @@ export const generateToken = async () => {
     
     try {
       const token = await getToken(messaging, {
-        vapidKey: "BAetjpoZErwax4Z9mZ_PnlOE4y24XUaCISp-IvoYkGsA1hn1UQ8FUgcckHgxPeB7FJLZygTasaSb61K-RMzHn9c"
+        vapidKey: process.env.REACT_APP_FIREBASE_VAPID_KEY
       });
       
       if (!token) {
