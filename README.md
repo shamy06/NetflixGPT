@@ -1,14 +1,15 @@
 # NetflixGPT
 Created OTT platform using firebase for authentication and Open AI API for search. 
 
+### Live Server
+   Open [https://netflixgpt-81d76.web.app/](https://netflixgpt-81d76.web.app/) to view it in your browser.
+
 ### `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `npm run build`
 
-### Live Server
-    https://netflixgpt-81d76.web.app/
 
 # Firebase
     User Auth
@@ -22,7 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## screen
 
-![Sign UP screen](images/SignUP.png "SignUP screen") 
+![Sign UP screen](images/SignUp.png "SignUP screen") 
 ![Sign IN screen](images/SignIn.png "SignIN screen")
 ![Home screen](images/Home_Page.png "Home screen") 
 ![Movie List](images/Movie_List.png "Movie List")
